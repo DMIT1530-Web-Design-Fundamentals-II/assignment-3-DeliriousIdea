@@ -220,6 +220,10 @@ header {
     background-image: linear-gradient(to bottom left, var(--seafoam-green), var(--md-blue));
 }
 
+.contact-wrapper {
+    flex-direction: column-reverse;
+}
+
 .card {
     flex: 0 0 27rem;
 }
@@ -274,3 +278,17 @@ header {
     padding: 0 1rem;
 }
 
+/* Medium */
+
+@media screen and (min-width: 760px) and (max-width:1189px){
+    body {
+        background-color: yellow;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 1190px) {
+    body {
+        background-color: black;
+    }
+}
