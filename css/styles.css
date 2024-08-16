@@ -56,6 +56,7 @@ h3 {
 
 h2 {
     color: var(--blue-grey);
+    font-size: 3rem;
     text-decoration: underline var(--seafoam-green);
 }
 
@@ -71,6 +72,15 @@ ul {
 
 ul li {
     list-style: none;
+}
+
+.contact-wrapper {
+    background-color: var(--dk-blue);
+    color: var(--lt-seafoam-green);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 1rem;
 }
 
 .header-content p {
@@ -114,15 +124,6 @@ ul li {
     padding: 0 1rem;
 }
 
-.contact-wrapper {
-    background-color: var(--dk-blue);
-    color: var(--lt-seafoam-green);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 0 1rem;
-}
-
 .social-media {
     gap: 1rem;
     display: flex;
@@ -149,6 +150,24 @@ ul li {
 
 .what-we-do img {
     border-radius: 0.5rem;
+}
+
+.who-we-are {
+    background-color: var(--seafoam-green);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.who-we-are h2 {
+    text-decoration: underline var(--lt-seafoam-green);
+}
+
+.who-we-are a{
+    background-color: var(--seafoam-green);
+    color: var(--md-blue);
+    margin:1rem 0;
 }
 
 /* Mobile */
