@@ -43,6 +43,12 @@ body {
     background-color: var(--lt-seafoam-green);
 }
 
+footer h2{
+    color: var(--lt-seafoam-green);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
 h1 {
     color: var(--lt-seafoam-green);
 }
@@ -65,7 +71,6 @@ h3 {
     color: var(--seafoam-green);
 }
 
-
 ul {
     padding: 0;
 }
@@ -81,6 +86,11 @@ ul li {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 0 1rem;
+}
+
+.footer-wrapper {
+    background-color: var(--md-blue);
+    color: var(--lt-seafoam-green)
 }
 
 .header-content p {
@@ -124,9 +134,42 @@ ul li {
     padding: 0 1rem;
 }
 
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.newsletter input,
+.newsletter a {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 1rem;
+}
+
+.newsletter h2 {
+    margin: 1rem 0;
+}
+
+.newsletter p {
+    margin: 3rem 0;
+}
+
+.newsletter .more-button {
+    background-color: var(--seafoam-green);
+    color: var(--md-blue);
+}
+
 .social-media {
     gap: 1rem;
     display: flex;
+}
+
+.our-offices {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem;
 }
 
 .what-we-do {
@@ -142,6 +185,7 @@ ul li {
     gap: 1rem;
     margin-bottom: 2rem;
 }
+
 
 .what-we-do-card p:first-of-type {
     color: var(--seafoam-green);
