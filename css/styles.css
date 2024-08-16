@@ -310,7 +310,7 @@ header {
 
 /* Medium */
 
-@media screen and (min-width: 760px) and (max-width:1189px){
+@media screen and (min-width: 760px) {
     .email-input {
         display: flex;
     }
@@ -349,9 +349,29 @@ header {
 }
 
 /* Large */
-@media screen and (min-width: 1190px) {
+@media screen and (min-width: 1191px) {
     body {
-        background-color: black;
+    }
+
+    .nav-menu {
+        display: flex;
+        visibility: unset;
+        position: unset;
+        top: unset;
+        left: unset;
+    }
+    
+    .menu-hide {
+        display: flex;
+        gap: 2rem;
+        margin-right: 1rem;
+    }
+    
+    .menu-icon {
+        visibility: hidden;
+        position:absolute;
+        top: 0;
+        left: 0;
     }
 
 }
