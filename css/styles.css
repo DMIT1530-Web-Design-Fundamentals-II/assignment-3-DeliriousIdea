@@ -31,10 +31,11 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: var(--dk-blue);
 }
+
 a img,
-div .search img {
+div .search img,
+.social-media-copyright img {
     width: 25px;
 }
 
