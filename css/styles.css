@@ -5,15 +5,15 @@
 
 :root {
     /** colours **/
-    --yellow:           #FED766; 
+    --yellow: #FED766;
     --lt-seafoam-green: #ecf9f6;
-    --seafoam-green:    #43C6AC;
-    --md-blue:          #191654;
-    --dk-blue:          #0C0B2A;
-    --blue-grey:        #6B717E;
+    --seafoam-green: #43C6AC;
+    --md-blue: #191654;
+    --dk-blue: #0C0B2A;
+    --blue-grey: #6B717E;
 
     /** typography **/
-    --headings:'Monoton', cursive;
+    --headings: 'Monoton', cursive;
     --body: 'Rubik', sans-serif;
 }
 
@@ -43,7 +43,7 @@ body {
     background-color: var(--lt-seafoam-green);
 }
 
-footer h2{
+footer h2 {
     color: var(--lt-seafoam-green);
     text-decoration: none;
     font-size: 2rem;
@@ -110,7 +110,7 @@ ul li {
 }
 
 .logo {
-    width:15rem
+    width: 15rem
 }
 
 .more-button {
@@ -220,10 +220,10 @@ ul li {
     text-decoration: underline var(--lt-seafoam-green);
 }
 
-.who-we-are a{
+.who-we-are a {
     background-color: var(--seafoam-green);
     color: var(--md-blue);
-    margin:1rem 0;
+    margin: 1rem 0;
 }
 
 /* Mobile */
@@ -292,10 +292,10 @@ header {
 }
 
 .nav-menu {
-    visibility: hidden;
-    position:absolute;
-    top: 0;
     left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
 }
 
 .nav-wrapper {
@@ -320,7 +320,7 @@ header {
     }
 
     .more-button {
-        width:50%;
+        width: 50%;
     }
 
     .more-work {
@@ -338,8 +338,8 @@ header {
     }
 
     .who-we-are-img,
-    .what-we-do-card img{
-        width:250px;
+    .what-we-do-card img {
+        width: 250px;
     }
 
     .contact-wrapper {
@@ -350,28 +350,24 @@ header {
 
 /* Large */
 @media screen and (min-width: 1191px) {
-    body {
-    }
-
     .nav-menu {
         display: flex;
-        visibility: unset;
+        left: unset;
         position: unset;
         top: unset;
-        left: unset;
+        visibility: unset;
     }
-    
+
     .menu-hide {
         display: flex;
         gap: 2rem;
         margin-right: 1rem;
     }
-    
-    .menu-icon {
-        visibility: hidden;
-        position:absolute;
-        top: 0;
-        left: 0;
-    }
 
+    .menu-icon {
+        left: 0;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+    }
 }
