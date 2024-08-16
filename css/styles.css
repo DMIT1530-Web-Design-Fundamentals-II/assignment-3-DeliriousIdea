@@ -117,6 +117,18 @@ header {
     font-size: 1.5rem;
     gap: 2.5rem;
     padding-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+.horizontal-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.card {
+    flex: 0 0 27rem;
+    margin-right: 2rem;
 }
 
 .menu-icon {
@@ -129,6 +141,11 @@ header {
     position:absolute;
     top: 0;
     left: 0;
+}
+
+.our-work {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
 }
 
 .nav-wrapper {
