@@ -28,20 +28,25 @@
 
 
 /* UNIVERSAL */
+
 body {
     font-family: 'Rubik', sans-serif;
+    background-color: var(--dk-blue);
 }
-
+a img,
 div .search img {
     width: 25px;
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: 'Monoton', cursive;
 }
 
 .container {
     padding: 0 1rem;
+}
+
+.more-buttons {
+    display: flex;
 }
