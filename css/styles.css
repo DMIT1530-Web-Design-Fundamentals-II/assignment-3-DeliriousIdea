@@ -29,14 +29,15 @@
 
 /* UNIVERSAL */
 
-body {
-    font-family: 'Rubik', sans-serif;
-}
-
 a img,
 div .search img,
 .social-media-copyright img {
     width: 25px;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--lt-seafoam-green);
 }
 
 h1,
@@ -44,10 +45,41 @@ h2 {
     font-family: 'Monoton', cursive;
 }
 
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
 .container {
     padding: 0 1rem;
 }
 
+.logo {
+    width:15rem
+}
+
 .more-buttons {
     display: flex;
+}
+
+/* Mobile */
+
+
+.menu-icon {
+    width: 3rem;
+}
+
+.nav-menu {
+    visibility: hidden;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
